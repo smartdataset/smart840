@@ -1,2 +1,2 @@
 # smart101
-Project page for the SMART-101 dataset and associated materials.
+Project page for the SMART-840 dataset and associated materials.
