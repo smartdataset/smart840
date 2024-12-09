@@ -170,7 +170,7 @@
       <div class="container" data-aos="fade-up"></div>
         <div class="section-title">
           <h2>LVLM Performance</h2>
-          <p class="red"> Note: If you would like us to add the results of your method to the table below, please send us a link to your paper that reports comparisons to the SMART-840 dataset as below. </p>
+          <p class="red"> Note: If you would like us to add the results of your method to the table below, please send us a link to your paper that reports comparisons to the SMART-840 dataset as provided below. </p>
         <div id="table-container" class="center-section">
           <table>
             <thead>
@@ -197,7 +197,7 @@
                     <td class="mean">64.2</td>
                 </tr>
                 <tr>
-                    <td>GPT-4o</td>
+                    <td><a href="https://openai.com/index/hello-gpt-4o/">GPT-4o</a></td>
                     <td class="red">41.6 </td>
                     <td class="orange">38.6 </td>
                     <td class="yellow">35.1</td>
@@ -207,17 +207,7 @@
                     <td colspan="6">42.4</td>
                 </tr>
                 <tr>
-                    <td>GPT-4o (M)</td>
-                    <td class="red">42.5</td>
-                    <td class="orange">36.7</td>
-                    <td class="yellow">36.0</td>
-                    <td class="green">46.7</td>
-                    <td class="blue">43.3</td>
-                    <td class="violet">50.0</td>
-                    <td colspan="6">42.5</td>
-                </tr>
-                <tr>
-                    <td>GPT-4v</td>
+                    <td><a href="https://openai.com/contributions/gpt-4v/">GPT-4v</a></td>
                     <td class="red">39.2 </td>
                     <td class="orange">38.3 </td>
                     <td class="yellow">29.3 </td>
@@ -227,7 +217,7 @@
                     <td colspan="6">37.4</td>
                 </tr>
                 <tr>
-                    <td>Gemini-Pro</td>
+                    <td><a href="https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/#sundar-note">Gemini-Pro 1.5</a></td>
                     <td class="red">25.8 </td>
                     <td class="orange">27.5 </td>
                     <td class="yellow">25.3 </td>
@@ -237,7 +227,7 @@
                     <td colspan="6">31.7</td>
                 </tr>
                 <tr>
-                    <td>Claude-3 Sonnet</td>
+                    <td><a href="https://www.anthropic.com/news/claude-3-5-sonnet">Claude-3 Sonnet</a></td>
                     <td class="red">51.6 </td>
                     <td class="orange">47.9 </td>
                     <td class="yellow">38.6 </td>
@@ -247,7 +237,7 @@
                     <td colspan="6">49.7</td>
                 </tr>
                 <tr>
-                    <td>InternLM-XComposer2</td>
+                    <td><a href="https://github.com/InternLM/InternLM-XComposer">InternLM-XComposer2</a></td>
                     <td class="red">22.5</td>
                     <td class="orange">14.2</td>
                     <td class="yellow">18.6</td>
@@ -256,8 +246,18 @@
                     <td class="violet">16.9</td>
                     <td colspan="6">19.1</td>
                 </tr>
+              <tr>
+                    <td><a href="https://huggingface.co/OpenGVLab/InternVL-Chat-V1-5">InternVL-Chat</a></td>
+                    <td class="red">16.7</td>
+                    <td class="orange">25.0</td>
+                    <td class="yellow">17.3</td>
+                    <td class="green">14.6</td>
+                    <td class="blue">15.3</td>
+                    <td class="violet">16.7</td>
+                    <td colspan="6">17.6</td>
+                </tr>
                 <tr>
-                    <td>LlaVa-NEXT (34B)</td>
+                    <td><a href="https://github.com/LLaVA-VL/LLaVA-NeXT">LlaVa-NEXT (34B)</a></td>
                     <td class="red">15.0</td>
                     <td class="orange">9.0</td>
                     <td class="yellow">20.1</td>
@@ -270,10 +270,7 @@
         </table>
       </div>
         <p><strong>Caption:</strong> Accuracy (%) of correct responses of children in the respective grades against the accuracy of LVLMs when the agent is asked to provide an explanation of their responses. 
-          GPT-4o (M) denotes the performance of GPT-4o after manual validation of GPT-4o responses. 
-          We report the standard deviation in brackets. 
-          The last block shows the performances of recent open-source LVLMs.
-        <u>We find that LVLMs perform well on higher grader problems (11-12) and relatively lower on earlier grades. (1-8)</u></p>
+        <u>We find that LVLMs perform well on higher-grader problems (11-12) and relatively low on earlier grades (1-8).</u></p>
       </div>
     </section>
 
@@ -284,7 +281,7 @@
         <div id="table-container" class="center-section">
           <img src="./assets/img/stats/children_statistics.png" style="width:1000px;"></img>
       </div>
-        <p><strong>Caption:</strong> Figure (a) plots the distributions of children participating in MK Olympiads per year
+        <p><strong>Caption:</strong> Figure (a) plota the distributions of children participating in MK Olympiads per year
           over 2020–2024 for grades 1–12. Figure (b) plots the total number of participants per grade during
           2020–2024. Figure (c) plots the total number of participants each year over all grades (1-12).
           Figure (d) shows the number of puzzles and its portion for each category. Figure (e) shows the
@@ -304,11 +301,11 @@
       <p><strong>Caption:</strong> Pearson’s correlation coefficient on various problem difficulty metrics between children and LVLMs. The table shows the correlation between
         the difficulty index (i.e., problems that are hard for children, are they hard for LVLMs too?), 
         discriminative index (i.e., problems that can discriminate between good learners and bad learners, can they also discriminate between LVLMs?),
-        Weight-Correlation (i.e., a problem is hard if it is given more points, and how well children and LVLMs perform on them?) , 
+        Weight-Correlation (i.e., higher point problems may be expected to be difficult for children, are they for LVLMs too?) , 
         Entropy-Correlation between the entropy of distribution of answers by children against those of LVLMs (i.e., if children are confused, are LVLMs also confused?),
-        Time-Correlation between the time taken by children to solve the puzzle against the time taken by LVLMs. The
-        green/red cell color indicates positive/negative ρ, where darker cells represent larger absolute values. 
-        We find that the correlations are weak or often negative. That is, <u>LVLMs do not find problems that are difficult for humans as hard and vice versa.</u>
+        Time-Correlation between the time taken by children to solve a problem (assuming difficult problems take longer) against accuracy by LVLMs on those problems. The
+        green/red cell color indicates positive/negative person's coefficient, where darker cells represent larger absolute values. 
+        We find that the correlations are weak or often negative. That is, <u>LVLMs do not correlate well with humans on the difficulty problems' solutions.</u>
        </p>
     </div>
   </section>
@@ -454,8 +451,8 @@
       <div id="table-container" class="center-section">
         <img src="./assets/img/stats/lvlm_category.png" style="width:1000px;"></img>
     </div>
-      <p><strong>Caption:</strong> LVLM category-wise performance. The problems are divided into 4 categories, namely geometry, algebra, number, and logic. 
-        We also show performance on image-text and text-only problems, and show a radar plot against human performance.
+      <p><strong>Caption:</strong> Category-wise performance of LVLMs against humans. The SMART-840 problems are divided into 4 categories, namely geometry, algebra, number, and logic. 
+        We also show the performance on image-text and text-only problems, and as well as a radar plot against human performance.
       </p>
     </div>
   </section>
